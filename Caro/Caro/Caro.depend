@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1680017156 source:e:\mygame\caro\bot.cpp
+
+1680872527 source:e:\mygame\caro\cell.cpp
+	"cell.h"
+	"board.h"
+	<iostream>
+
+1680537511 e:\mygame\caro\cell.h
+	<SDL.h>
+	<SDL_image.h>
+
+1680713609 e:\mygame\caro\board.h
+	<stdio.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<string>
+
+1680713609 source:e:\mygame\caro\board.cpp
+	"board.h"
+
+1681695960 source:e:\mygame\caro\main.cpp
+	"cell.h"
+	"board.h"
+	"menu.h"
+	<iostream>
+	<vector>
+	<algorithm>
+
+1680713930 e:\mygame\caro\menu.h
+	<SDL.h>
+
+1680713363 source:e:\mygame\caro\menu.cpp
+	"board.h"
+	"menu.h"
+
