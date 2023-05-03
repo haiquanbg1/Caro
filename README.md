@@ -24,10 +24,10 @@
 
 
 ####
-![alt](https://github.com/dupham2206/TicTacToe_LTNC/blob/master/pictures/demo.png)
+![alt](https://github.com/haiquanbg1/Caro/blob/main/Caro/pictures/demo.png)
 #### Hình 1
 ####
-![alt](https://github.com/dupham2206/TicTacToe_LTNC/blob/master/pictures/demo2.png)
+![alt](https://github.com/haiquanbg1/Caro/blob/main/Caro/pictures/demo2.png)
 #### Hình 2
 ####
 
