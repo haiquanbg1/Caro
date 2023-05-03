@@ -241,9 +241,6 @@ void PreGame::handleEvent(SDL_Window* window, SDL_Renderer* renderer, bool &inGa
 }
 void PreGame::render(SDL_Renderer* renderer){
     SDL_RenderClear(renderer);
-//    // render background
-//    RenderMedia(renderer, dataImage[BACKGROUND][1],
-//                0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     // render choice buttons of map
     for(int i = 1; i <= SIZE_OF_CHOICE_MAP; ++i)
         ChoiceMap[i].render(renderer, false, false);

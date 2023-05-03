@@ -73,7 +73,7 @@ void quitSDL(SDL_Window* window, SDL_Renderer* renderer){
     SDL_Quit();
 }
 
-SDL_Texture* dataImage[21][20];
+SDL_Texture* dataImage[20][20];
 Mix_Chunk* dataChunk[10];
 static const int SCREEN_WIDTH = 800;
 static const int SCREEN_HEIGHT = 600;
@@ -99,7 +99,6 @@ enum typeOfImage
     CHOICE_LEVEL_PREGAME,
     CHOICE_LEVEL_SUCCESS_PREGAME,
     SOUND_PREGAME,
-    BACKGROUND
 };
 
 enum stateOfBULLETINBOARD {
@@ -217,7 +216,6 @@ void setData(SDL_Renderer* renderer){
     dataImage[CHOICE_LEVEL_SUCCESS_PREGAME][HARD] = loadMedia(renderer, "pictures/choiceLevelHard_success.png");
     dataImage[SOUND_PREGAME][ON] = loadMedia(renderer, "pictures/sound_on.png");
     dataImage[SOUND_PREGAME][OFF] = loadMedia(renderer, "pictures/sound_off.png");
-    dataImage[BACKGROUND][1] = loadMedia(renderer, "pictures/background.png");
 
     if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) == -1){
         printf("%s", Mix_GetError());
