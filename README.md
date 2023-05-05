@@ -46,8 +46,8 @@ Trong game CARO này sẽ có 4 loại màn chơi: 3x3 với k = 3, 5x5 thì k =
 ####
 - Ngôn ngữ lập trình C++.
 - Thư viện đồ họa SDL2 qua lazyfoo.
-- Kiến thức về OOP: lớp, đối tượng, tính đóng gói, tính thừa kế, lớp trừu tượng.
-- Kiến thức về Trí tuệ nhân tạo: các chiến lược tìm kiếm có đối thủ: thuật toán minimax, prunning alpha-beta.
+- Kiến thức về OOP: lớp, đối tượng, tính đóng gói, tính thừa kế, lớp trừu tượng. (tham khảo qua giáo trình OOP_2013 của ĐHCN-ĐHQGHN)
+- Kiến thức về Trí tuệ nhân tạo: các chiến lược tìm kiếm có đối thủ: thuật toán minimax, prunning alpha-beta. (tham khảo qua google, giáo trình trí tuệ nhân tạo)
 - Kiến thức về game cờ caro: Để viết hàm đánh giá tốt cho AI trong game.
 ### 1.3 Chia sẻ về quá trình làm game: <a name="share"></a>
 #### Phát triển minimax 3x3
