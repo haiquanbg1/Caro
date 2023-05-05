@@ -1,11 +1,11 @@
 # GAME CARO
 ## Mục lục:
 
-##### 1. Tổng quan về game:
+##### [1. Tổng quan về game:](#1)
 ###### --- [1.1 Giới thiệu:](#introduction)
-###### ---[1.2 Kiến thưc áp dụng:](#knowledge)
+###### ---[1.2 Kiến thức áp dụng:](#knowledge)
 ###### ---[1.3 Chia sẻ về quá trình làm game:](#share)
-##### 2. Cài đặt chương trình:
+##### [2. Cài đặt chương trình:](#2)
 ###### --- [sdlsupport.h](#sdlsupport.h)
 ###### --- [button.h](#button.h)
 ###### --- [pregame.h](#pregame.h)
@@ -15,6 +15,7 @@
 ###### --- [AIextendMedium.h](#AIextendMedium.h)
 ###### --- [AIextendHard.h](#AIextendHard.h)
 ###### --- [main.cpp](#main.cpp)
+##### [3. Hướng cải tiến:](#3)
 
 ##
 ------------------------------------------------
@@ -24,15 +25,15 @@
 
 
 ####
-![alt](https://github.com/dupham2206/TicTacToe_LTNC/blob/master/pictures/demo.png)
+![alt](https://github.com/haiquanbg1/Caro/blob/main/Caro/pictures/demo.png)
 #### Hình 1
 ####
-![alt](https://github.com/dupham2206/TicTacToe_LTNC/blob/master/pictures/demo2.png)
+![alt](https://github.com/haiquanbg1/Caro/blob/main/Caro/pictures/demo2.png)
 #### Hình 2
 ####
 
 
-## 1. Tổng quan về game:
+## 1. Tổng quan về game: <a name="1"></a>
 ### 1.1 Giới thiệu: <a name="introduction"></a>
 
 CARO là game được phát triển bởi Phạm Anh Quân, MSV 22026520 cho bài tập lớn môn LTNC.
@@ -154,7 +155,7 @@ int AI::heuristicValue(){
         else return cntWin;
     }
 ```
-## 2. Cài đặt chương trình:
+## 2. Cài đặt chương trình: <a name="2"></a>
 ### sdlsupport.h: <a name="sdlsupport.h"></a>
 #### Chứa những biến toàn cục liên quan đến window và data, những hàm mà SDL2 support, hàm load hình ảnh và âm thanh ,nhiều enum đánh dấu đặc điểm dữ liệu.
 - loadMedia(): load 1 ảnh [tham khảo lazyfoo rồi chỉnh sửa lại].
@@ -328,3 +329,7 @@ int AI::heuristicValue(){
 - chứa các biến khởi tạo cho SDL.
 - gọi hàm setData từ SDLsupport.
 - Vòng lặp game: nếu check sự kiện nếu đổi inGame thành 0 thì vô preGame, dổi thành 1 thì vô game. trước khi vô game thì set giá trị map, player từ preGame cho game.
+
+## 3. Hướng cải tiến: <a name="3"></a>
+- Continue Play: (tiếp tục game đã chơi trước đó) dùng thêm 1 file .txt để lưu trạng thái đã set trong game và làm thêm nút để tiếp tục game nếu lỡ thoát.
+- Move Back: (đi lại) dùng thêm 1 vector< pair<int, int> > để lưu vị trí các nước đã đi rồi nếu muốn đi lại thì chỉ cần khởi tạo lại cho vị trí cuối vector và xoá nó khỏi vector.

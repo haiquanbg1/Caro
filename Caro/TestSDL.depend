@@ -142,7 +142,7 @@
 	<SDL_image.h>
 	"sdlsupport.h"
 
-1682413140 e:\demo\caro\sdlsupport.h
+1683103216 e:\demo\caro\sdlsupport.h
 	<iostream>
 	"SDL_mixer.h"
 
@@ -155,7 +155,7 @@
 1639675076 e:\demo\caro\aiextendeasymode.h
 	"AI.h"
 
-1682413414 e:\demo\caro\pregame.h
+1683103214 e:\demo\caro\pregame.h
 	<iostream>
 	"button.h"
 
